@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		942253F31DF8FDF5009AE107 /* leftVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 942253F11DF8FDF5009AE107 /* leftVC.m */; };
+		942253F41DF8FDF5009AE107 /* leftVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942253F21DF8FDF5009AE107 /* leftVC.xib */; };
+		942253F71DF90806009AE107 /* tbbVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 942253F61DF90806009AE107 /* tbbVC3.m */; };
+		942FED2C1DF1139A006ACBBA /* itemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FED2B1DF1139A006ACBBA /* itemViewController.m */; };
+		942FED2F1DF11F79006ACBBA /* navVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FED2E1DF11F79006ACBBA /* navVC.m */; };
+		942FED321DF12376006ACBBA /* tbbVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FED311DF12376006ACBBA /* tbbVC.m */; };
+		942FED351DF124E4006ACBBA /* tbbVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FED341DF124E4006ACBBA /* tbbVC2.m */; };
+		943F86051E00F3FE00F6CC57 /* newsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F86041E00F3FE00F6CC57 /* newsVC.m */; };
+		943F86071E012BB600F6CC57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F86061E012BB600F6CC57 /* CoreGraphics.framework */; };
+		943F86091E012BBD00F6CC57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F86081E012BBD00F6CC57 /* UIKit.framework */; };
+		943F860B1E012BC400F6CC57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F860A1E012BC400F6CC57 /* Foundation.framework */; };
+		943F860E1E012C2100F6CC57 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F860D1E012C2100F6CC57 /* iflyMSC.framework */; };
+		943F86151E012C3600F6CC57 /* com.iflytek.IFlyMSC.docset in Resources */ = {isa = PBXBuildFile; fileRef = 943F86101E012C3600F6CC57 /* com.iflytek.IFlyMSC.docset */; };
+		943F86161E012C3600F6CC57 /* installdocset.sh in Resources */ = {isa = PBXBuildFile; fileRef = 943F86111E012C3600F6CC57 /* installdocset.sh */; };
+		943F86171E012C3600F6CC57 /* MSC Develop Manual for iOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 943F86121E012C3600F6CC57 /* MSC Develop Manual for iOS.pdf */; };
+		943F86181E012C3600F6CC57 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 943F86131E012C3600F6CC57 /* readme.txt */; };
+		943F86191E012C3600F6CC57 /* Speech_Evaluation_API_Documents.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 943F86141E012C3600F6CC57 /* Speech_Evaluation_API_Documents.pdf */; };
+		943F861B1E012C9A00F6CC57 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F861A1E012C9A00F6CC57 /* CoreTelephony.framework */; };
+		943F86211E012D1900F6CC57 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F86201E012D1900F6CC57 /* CoreLocation.framework */; };
+		943F86231E012D2200F6CC57 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F86221E012D2200F6CC57 /* AVFoundation.framework */; };
+		943F86251E012D2B00F6CC57 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F86241E012D2B00F6CC57 /* AddressBook.framework */; };
+		943F86271E012D3700F6CC57 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F86261E012D3700F6CC57 /* AudioToolbox.framework */; };
+		943F86291E012D4100F6CC57 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F86281E012D4100F6CC57 /* SystemConfiguration.framework */; };
+		943F862B1E012D4900F6CC57 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F862A1E012D4900F6CC57 /* QuartzCore.framework */; };
+		943F862C1E012DB600F6CC57 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F861C1E012CAD00F6CC57 /* libz.tbd */; };
+		943F862F1E013E7F00F6CC57 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F862E1E013E7F00F6CC57 /* ISRDataHelper.m */; };
+		944B67481DEFB45500752471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B67471DEFB45500752471 /* main.m */; };
+		944B674B1DEFB45500752471 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B674A1DEFB45500752471 /* AppDelegate.m */; };
+		944B674E1DEFB45500752471 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B674D1DEFB45500752471 /* ViewController.m */; };
+		944B67511DEFB45500752471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944B674F1DEFB45500752471 /* Main.storyboard */; };
+		944B67531DEFB45500752471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944B67521DEFB45500752471 /* Assets.xcassets */; };
+		944B67561DEFB45500752471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944B67541DEFB45500752471 /* LaunchScreen.storyboard */; };
+		944B67611DEFB45500752471 /* MadMax_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B67601DEFB45500752471 /* MadMax_Tests.m */; };
+		944B676C1DEFB45500752471 /* MadMax_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B676B1DEFB45500752471 /* MadMax_UITests.m */; };
+		944B677C1DF0104B00752471 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B677B1DF0104B00752471 /* BaseViewController.m */; };
+		944B67801DF010DD00752471 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B677F1DF010DD00752471 /* RootViewController.m */; };
+		944B67831DF0236500752471 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B67821DF0236500752471 /* LeftViewController.m */; };
+		CB53156D0219DD2CE7A12FDC /* Pods_MadMax_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21552CF69E04C438B7960CF9 /* Pods_MadMax_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		944B675D1DEFB45500752471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944B673B1DEFB45500752471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 944B67421DEFB45500752471;
+			remoteInfo = "MadMax+";
+		};
+		944B67681DEFB45500752471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944B673B1DEFB45500752471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 944B67421DEFB45500752471;
+			remoteInfo = "MadMax+";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21552CF69E04C438B7960CF9 /* Pods_MadMax_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MadMax_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		942253F01DF8FDF5009AE107 /* leftVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leftVC.h; sourceTree = "<group>"; };
+		942253F11DF8FDF5009AE107 /* leftVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = leftVC.m; sourceTree = "<group>"; };
+		942253F21DF8FDF5009AE107 /* leftVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = leftVC.xib; sourceTree = "<group>"; };
+		942253F51DF90806009AE107 /* tbbVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tbbVC3.h; sourceTree = "<group>"; };
+		942253F61DF90806009AE107 /* tbbVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tbbVC3.m; sourceTree = "<group>"; };
+		942FED2A1DF1139A006ACBBA /* itemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itemViewController.h; sourceTree = "<group>"; };
+		942FED2B1DF1139A006ACBBA /* itemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = itemViewController.m; sourceTree = "<group>"; };
+		942FED2D1DF11F79006ACBBA /* navVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = navVC.h; sourceTree = "<group>"; };
+		942FED2E1DF11F79006ACBBA /* navVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = navVC.m; sourceTree = "<group>"; };
+		942FED301DF12376006ACBBA /* tbbVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tbbVC.h; sourceTree = "<group>"; };
+		942FED311DF12376006ACBBA /* tbbVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tbbVC.m; sourceTree = "<group>"; };
+		942FED331DF124E4006ACBBA /* tbbVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tbbVC2.h; sourceTree = "<group>"; };
+		942FED341DF124E4006ACBBA /* tbbVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tbbVC2.m; sourceTree = "<group>"; };
+		943F86031E00F3FE00F6CC57 /* newsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newsVC.h; path = CSGOclass/newsVC.h; sourceTree = "<group>"; };
+		943F86041E00F3FE00F6CC57 /* newsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newsVC.m; path = CSGOclass/newsVC.m; sourceTree = "<group>"; };
+		943F86061E012BB600F6CC57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		943F86081E012BBD00F6CC57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		943F860A1E012BC400F6CC57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		943F860D1E012C2100F6CC57 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = lib/iflyMSC.framework; sourceTree = "<group>"; };
+		943F86101E012C3600F6CC57 /* com.iflytek.IFlyMSC.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = com.iflytek.IFlyMSC.docset; path = doc/com.iflytek.IFlyMSC.docset; sourceTree = "<group>"; };
+		943F86111E012C3600F6CC57 /* installdocset.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = installdocset.sh; path = doc/installdocset.sh; sourceTree = "<group>"; };
+		943F86121E012C3600F6CC57 /* MSC Develop Manual for iOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "MSC Develop Manual for iOS.pdf"; path = "doc/MSC Develop Manual for iOS.pdf"; sourceTree = "<group>"; };
+		943F86131E012C3600F6CC57 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readme.txt; path = doc/readme.txt; sourceTree = "<group>"; };
+		943F86141E012C3600F6CC57 /* Speech_Evaluation_API_Documents.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Speech_Evaluation_API_Documents.pdf; path = doc/Speech_Evaluation_API_Documents.pdf; sourceTree = "<group>"; };
+		943F861A1E012C9A00F6CC57 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		943F861C1E012CAD00F6CC57 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		943F86201E012D1900F6CC57 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		943F86221E012D2200F6CC57 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		943F86241E012D2B00F6CC57 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		943F86261E012D3700F6CC57 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		943F86281E012D4100F6CC57 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		943F862A1E012D4900F6CC57 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		943F862D1E013E7F00F6CC57 /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISRDataHelper.h; path = CSGOclass/ISRDataHelper.h; sourceTree = "<group>"; };
+		943F862E1E013E7F00F6CC57 /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISRDataHelper.m; path = CSGOclass/ISRDataHelper.m; sourceTree = "<group>"; };
+		944B67431DEFB45500752471 /* MadMax+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MadMax+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		944B67471DEFB45500752471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		944B67491DEFB45500752471 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		944B674A1DEFB45500752471 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		944B674C1DEFB45500752471 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		944B674D1DEFB45500752471 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		944B67501DEFB45500752471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		944B67521DEFB45500752471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		944B67551DEFB45500752471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		944B67571DEFB45500752471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944B675C1DEFB45500752471 /* MadMax+Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MadMax+Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		944B67601DEFB45500752471 /* MadMax_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadMax_Tests.m; sourceTree = "<group>"; };
+		944B67621DEFB45500752471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944B67671DEFB45500752471 /* MadMax+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MadMax+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		944B676B1DEFB45500752471 /* MadMax_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MadMax_UITests.m; sourceTree = "<group>"; };
+		944B676D1DEFB45500752471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944B677A1DF0104B00752471 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = Base/BaseViewController.h; sourceTree = "<group>"; };
+		944B677B1DF0104B00752471 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = Base/BaseViewController.m; sourceTree = "<group>"; };
+		944B677E1DF010DD00752471 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = RootVC/RootViewController.h; sourceTree = "<group>"; };
+		944B677F1DF010DD00752471 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = RootVC/RootViewController.m; sourceTree = "<group>"; };
+		944B67811DF0236500752471 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		944B67821DF0236500752471 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		9AD7E32B1598387B9C5D0A66 /* Pods-MadMax+.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadMax+.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadMax+/Pods-MadMax+.debug.xcconfig"; sourceTree = "<group>"; };
+		B353E65B8A38E9A8C8E91877 /* Pods-MadMax+.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadMax+.release.xcconfig"; path = "Pods/Target Support Files/Pods-MadMax+/Pods-MadMax+.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		944B67401DEFB45500752471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943F862C1E012DB600F6CC57 /* libz.tbd in Frameworks */,
+				943F862B1E012D4900F6CC57 /* QuartzCore.framework in Frameworks */,
+				943F86291E012D4100F6CC57 /* SystemConfiguration.framework in Frameworks */,
+				943F86271E012D3700F6CC57 /* AudioToolbox.framework in Frameworks */,
+				943F86251E012D2B00F6CC57 /* AddressBook.framework in Frameworks */,
+				943F86231E012D2200F6CC57 /* AVFoundation.framework in Frameworks */,
+				943F86211E012D1900F6CC57 /* CoreLocation.framework in Frameworks */,
+				943F861B1E012C9A00F6CC57 /* CoreTelephony.framework in Frameworks */,
+				943F860B1E012BC400F6CC57 /* Foundation.framework in Frameworks */,
+				943F86091E012BBD00F6CC57 /* UIKit.framework in Frameworks */,
+				943F86071E012BB600F6CC57 /* CoreGraphics.framework in Frameworks */,
+				943F860E1E012C2100F6CC57 /* iflyMSC.framework in Frameworks */,
+				CB53156D0219DD2CE7A12FDC /* Pods_MadMax_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B67591DEFB45500752471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B67641DEFB45500752471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A8A204A7B57663C2DDEAF19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AD7E32B1598387B9C5D0A66 /* Pods-MadMax+.debug.xcconfig */,
+				B353E65B8A38E9A8C8E91877 /* Pods-MadMax+.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74E739159394EB995BDE0A0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				943F862A1E012D4900F6CC57 /* QuartzCore.framework */,
+				943F86281E012D4100F6CC57 /* SystemConfiguration.framework */,
+				943F86261E012D3700F6CC57 /* AudioToolbox.framework */,
+				943F86241E012D2B00F6CC57 /* AddressBook.framework */,
+				943F86221E012D2200F6CC57 /* AVFoundation.framework */,
+				943F86201E012D1900F6CC57 /* CoreLocation.framework */,
+				943F861C1E012CAD00F6CC57 /* libz.tbd */,
+				943F861A1E012C9A00F6CC57 /* CoreTelephony.framework */,
+				943F860A1E012BC400F6CC57 /* Foundation.framework */,
+				943F86081E012BBD00F6CC57 /* UIKit.framework */,
+				943F86061E012BB600F6CC57 /* CoreGraphics.framework */,
+				21552CF69E04C438B7960CF9 /* Pods_MadMax_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		942FED361DF15C56006ACBBA /* navi */ = {
+			isa = PBXGroup;
+			children = (
+				942FED2D1DF11F79006ACBBA /* navVC.h */,
+				942FED2E1DF11F79006ACBBA /* navVC.m */,
+				942FED301DF12376006ACBBA /* tbbVC.h */,
+				942FED311DF12376006ACBBA /* tbbVC.m */,
+				942FED331DF124E4006ACBBA /* tbbVC2.h */,
+				942FED341DF124E4006ACBBA /* tbbVC2.m */,
+				942253F51DF90806009AE107 /* tbbVC3.h */,
+				942253F61DF90806009AE107 /* tbbVC3.m */,
+				944B67811DF0236500752471 /* LeftViewController.h */,
+				944B67821DF0236500752471 /* LeftViewController.m */,
+			);
+			name = navi;
+			sourceTree = "<group>";
+		};
+		942FED371DF15C7C006ACBBA /* class */ = {
+			isa = PBXGroup;
+			children = (
+				942FED2A1DF1139A006ACBBA /* itemViewController.h */,
+				942FED2B1DF1139A006ACBBA /* itemViewController.m */,
+				944B674C1DEFB45500752471 /* ViewController.h */,
+				944B674D1DEFB45500752471 /* ViewController.m */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		943F86021E00F3B100F6CC57 /* CSGOclass */ = {
+			isa = PBXGroup;
+			children = (
+				943F862D1E013E7F00F6CC57 /* ISRDataHelper.h */,
+				943F862E1E013E7F00F6CC57 /* ISRDataHelper.m */,
+				943F86031E00F3FE00F6CC57 /* newsVC.h */,
+				943F86041E00F3FE00F6CC57 /* newsVC.m */,
+			);
+			name = CSGOclass;
+			sourceTree = "<group>";
+		};
+		943F860C1E012C1600F6CC57 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				943F860D1E012C2100F6CC57 /* iflyMSC.framework */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		943F860F1E012C2500F6CC57 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				943F86101E012C3600F6CC57 /* com.iflytek.IFlyMSC.docset */,
+				943F86111E012C3600F6CC57 /* installdocset.sh */,
+				943F86121E012C3600F6CC57 /* MSC Develop Manual for iOS.pdf */,
+				943F86131E012C3600F6CC57 /* readme.txt */,
+				943F86141E012C3600F6CC57 /* Speech_Evaluation_API_Documents.pdf */,
+			);
+			name = doc;
+			sourceTree = "<group>";
+		};
+		944B673A1DEFB45500752471 = {
+			isa = PBXGroup;
+			children = (
+				944B67451DEFB45500752471 /* MadMax+ */,
+				944B675F1DEFB45500752471 /* MadMax+Tests */,
+				944B676A1DEFB45500752471 /* MadMax+UITests */,
+				944B67441DEFB45500752471 /* Products */,
+				3A8A204A7B57663C2DDEAF19 /* Pods */,
+				74E739159394EB995BDE0A0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		944B67441DEFB45500752471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				944B67431DEFB45500752471 /* MadMax+.app */,
+				944B675C1DEFB45500752471 /* MadMax+Tests.xctest */,
+				944B67671DEFB45500752471 /* MadMax+UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		944B67451DEFB45500752471 /* MadMax+ */ = {
+			isa = PBXGroup;
+			children = (
+				943F860F1E012C2500F6CC57 /* doc */,
+				943F860C1E012C1600F6CC57 /* lib */,
+				944B67791DF0102400752471 /* Base */,
+				944B677D1DF0109F00752471 /* RootVC */,
+				942FED361DF15C56006ACBBA /* navi */,
+				942FED371DF15C7C006ACBBA /* class */,
+				943F86021E00F3B100F6CC57 /* CSGOclass */,
+				944B67491DEFB45500752471 /* AppDelegate.h */,
+				944B674A1DEFB45500752471 /* AppDelegate.m */,
+				944B674F1DEFB45500752471 /* Main.storyboard */,
+				944B67521DEFB45500752471 /* Assets.xcassets */,
+				944B67541DEFB45500752471 /* LaunchScreen.storyboard */,
+				944B67571DEFB45500752471 /* Info.plist */,
+				944B67461DEFB45500752471 /* Supporting Files */,
+			);
+			path = "MadMax+";
+			sourceTree = "<group>";
+		};
+		944B67461DEFB45500752471 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				944B67471DEFB45500752471 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		944B675F1DEFB45500752471 /* MadMax+Tests */ = {
+			isa = PBXGroup;
+			children = (
+				944B67601DEFB45500752471 /* MadMax_Tests.m */,
+				944B67621DEFB45500752471 /* Info.plist */,
+			);
+			path = "MadMax+Tests";
+			sourceTree = "<group>";
+		};
+		944B676A1DEFB45500752471 /* MadMax+UITests */ = {
+			isa = PBXGroup;
+			children = (
+				944B676B1DEFB45500752471 /* MadMax_UITests.m */,
+				944B676D1DEFB45500752471 /* Info.plist */,
+			);
+			path = "MadMax+UITests";
+			sourceTree = "<group>";
+		};
+		944B67791DF0102400752471 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				944B677A1DF0104B00752471 /* BaseViewController.h */,
+				944B677B1DF0104B00752471 /* BaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		944B677D1DF0109F00752471 /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				944B677E1DF010DD00752471 /* RootViewController.h */,
+				944B677F1DF010DD00752471 /* RootViewController.m */,
+				942253F01DF8FDF5009AE107 /* leftVC.h */,
+				942253F11DF8FDF5009AE107 /* leftVC.m */,
+				942253F21DF8FDF5009AE107 /* leftVC.xib */,
+			);
+			name = RootVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		944B67421DEFB45500752471 /* MadMax+ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944B67701DEFB45500752471 /* Build configuration list for PBXNativeTarget "MadMax+" */;
+			buildPhases = (
+				BFD51BE4EF543B48C33B3FAF /* [CP] Check Pods Manifest.lock */,
+				944B673F1DEFB45500752471 /* Sources */,
+				944B67401DEFB45500752471 /* Frameworks */,
+				944B67411DEFB45500752471 /* Resources */,
+				804284A8A5F6A950EE6F5EBD /* [CP] Embed Pods Frameworks */,
+				BBB2F77FDBCDC2ED6F6217CB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MadMax+";
+			productName = "MadMax+";
+			productReference = 944B67431DEFB45500752471 /* MadMax+.app */;
+			productType = "com.apple.product-type.application";
+		};
+		944B675B1DEFB45500752471 /* MadMax+Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944B67731DEFB45500752471 /* Build configuration list for PBXNativeTarget "MadMax+Tests" */;
+			buildPhases = (
+				944B67581DEFB45500752471 /* Sources */,
+				944B67591DEFB45500752471 /* Frameworks */,
+				944B675A1DEFB45500752471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				944B675E1DEFB45500752471 /* PBXTargetDependency */,
+			);
+			name = "MadMax+Tests";
+			productName = "MadMax+Tests";
+			productReference = 944B675C1DEFB45500752471 /* MadMax+Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		944B67661DEFB45500752471 /* MadMax+UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944B67761DEFB45500752471 /* Build configuration list for PBXNativeTarget "MadMax+UITests" */;
+			buildPhases = (
+				944B67631DEFB45500752471 /* Sources */,
+				944B67641DEFB45500752471 /* Frameworks */,
+				944B67651DEFB45500752471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				944B67691DEFB45500752471 /* PBXTargetDependency */,
+			);
+			name = "MadMax+UITests";
+			productName = "MadMax+UITests";
+			productReference = 944B67671DEFB45500752471 /* MadMax+UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		944B673B1DEFB45500752471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ruany;
+				TargetAttributes = {
+					944B67421DEFB45500752471 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = L7EUQMZ7ZE;
+						ProvisioningStyle = Automatic;
+					};
+					944B675B1DEFB45500752471 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 944B67421DEFB45500752471;
+					};
+					944B67661DEFB45500752471 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 944B67421DEFB45500752471;
+					};
+				};
+			};
+			buildConfigurationList = 944B673E1DEFB45500752471 /* Build configuration list for PBXProject "MadMax+" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 944B673A1DEFB45500752471;
+			productRefGroup = 944B67441DEFB45500752471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				944B67421DEFB45500752471 /* MadMax+ */,
+				944B675B1DEFB45500752471 /* MadMax+Tests */,
+				944B67661DEFB45500752471 /* MadMax+UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		944B67411DEFB45500752471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943F86161E012C3600F6CC57 /* installdocset.sh in Resources */,
+				944B67561DEFB45500752471 /* LaunchScreen.storyboard in Resources */,
+				944B67531DEFB45500752471 /* Assets.xcassets in Resources */,
+				943F86171E012C3600F6CC57 /* MSC Develop Manual for iOS.pdf in Resources */,
+				943F86191E012C3600F6CC57 /* Speech_Evaluation_API_Documents.pdf in Resources */,
+				943F86151E012C3600F6CC57 /* com.iflytek.IFlyMSC.docset in Resources */,
+				944B67511DEFB45500752471 /* Main.storyboard in Resources */,
+				943F86181E012C3600F6CC57 /* readme.txt in Resources */,
+				942253F41DF8FDF5009AE107 /* leftVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B675A1DEFB45500752471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B67651DEFB45500752471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		804284A8A5F6A950EE6F5EBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MadMax+/Pods-MadMax+-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBB2F77FDBCDC2ED6F6217CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MadMax+/Pods-MadMax+-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFD51BE4EF543B48C33B3FAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		944B673F1DEFB45500752471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943F862F1E013E7F00F6CC57 /* ISRDataHelper.m in Sources */,
+				942FED2F1DF11F79006ACBBA /* navVC.m in Sources */,
+				944B674E1DEFB45500752471 /* ViewController.m in Sources */,
+				942253F31DF8FDF5009AE107 /* leftVC.m in Sources */,
+				942FED351DF124E4006ACBBA /* tbbVC2.m in Sources */,
+				944B677C1DF0104B00752471 /* BaseViewController.m in Sources */,
+				942FED321DF12376006ACBBA /* tbbVC.m in Sources */,
+				944B674B1DEFB45500752471 /* AppDelegate.m in Sources */,
+				944B67831DF0236500752471 /* LeftViewController.m in Sources */,
+				944B67481DEFB45500752471 /* main.m in Sources */,
+				943F86051E00F3FE00F6CC57 /* newsVC.m in Sources */,
+				944B67801DF010DD00752471 /* RootViewController.m in Sources */,
+				942FED2C1DF1139A006ACBBA /* itemViewController.m in Sources */,
+				942253F71DF90806009AE107 /* tbbVC3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B67581DEFB45500752471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944B67611DEFB45500752471 /* MadMax_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B67631DEFB45500752471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944B676C1DEFB45500752471 /* MadMax_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		944B675E1DEFB45500752471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 944B67421DEFB45500752471 /* MadMax+ */;
+			targetProxy = 944B675D1DEFB45500752471 /* PBXContainerItemProxy */;
+		};
+		944B67691DEFB45500752471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 944B67421DEFB45500752471 /* MadMax+ */;
+			targetProxy = 944B67681DEFB45500752471 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		944B674F1DEFB45500752471 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944B67501DEFB45500752471 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		944B67541DEFB45500752471 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944B67551DEFB45500752471 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		944B676E1DEFB45500752471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		944B676F1DEFB45500752471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		944B67711DEFB45500752471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AD7E32B1598387B9C5D0A66 /* Pods-MadMax+.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L7EUQMZ7ZE;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MadMax+/lib",
+				);
+				INFOPLIST_FILE = "MadMax+/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruanyang.MadMax-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		944B67721DEFB45500752471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B353E65B8A38E9A8C8E91877 /* Pods-MadMax+.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L7EUQMZ7ZE;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MadMax+/lib",
+				);
+				INFOPLIST_FILE = "MadMax+/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruanyang.MadMax-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		944B67741DEFB45500752471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MadMax+Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruanyang.MadMax-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadMax+.app/MadMax+";
+			};
+			name = Debug;
+		};
+		944B67751DEFB45500752471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MadMax+Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruanyang.MadMax-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadMax+.app/MadMax+";
+			};
+			name = Release;
+		};
+		944B67771DEFB45500752471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MadMax+UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruanyang.MadMax-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MadMax+";
+			};
+			name = Debug;
+		};
+		944B67781DEFB45500752471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MadMax+UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ruanyang.MadMax-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MadMax+";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		944B673E1DEFB45500752471 /* Build configuration list for PBXProject "MadMax+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944B676E1DEFB45500752471 /* Debug */,
+				944B676F1DEFB45500752471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944B67701DEFB45500752471 /* Build configuration list for PBXNativeTarget "MadMax+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944B67711DEFB45500752471 /* Debug */,
+				944B67721DEFB45500752471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944B67731DEFB45500752471 /* Build configuration list for PBXNativeTarget "MadMax+Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944B67741DEFB45500752471 /* Debug */,
+				944B67751DEFB45500752471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944B67761DEFB45500752471 /* Build configuration list for PBXNativeTarget "MadMax+UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944B67771DEFB45500752471 /* Debug */,
+				944B67781DEFB45500752471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 944B673B1DEFB45500752471 /* Project object */;
+}
