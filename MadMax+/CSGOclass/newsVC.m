@@ -29,7 +29,7 @@
     [self setExclusiveTouchForButtons:self.view];
     
     
-    NSString *initString = [[NSString alloc] initWithFormat:@"appid=%@",@""];
+    NSString *initString = [[NSString alloc] initWithFormat:@"appid=%@",@"5850bb80"];
     [IFlySpeechUtility createUtility:initString];
     
     

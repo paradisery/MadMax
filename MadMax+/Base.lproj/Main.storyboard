@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eIR-Jj-ZFq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eIR-Jj-ZFq">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -49,7 +49,7 @@
         <!--视频-->
         <scene sceneID="mrz-Uj-fCc">
             <objects>
-                <viewController id="WtZ-Ez-Ehp" sceneMemberID="viewController">
+                <viewController id="WtZ-Ez-Ehp" customClass="videoVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9t8-bV-smc"/>
                         <viewControllerLayoutGuide type="bottom" id="2Or-8d-h1M"/>
@@ -58,21 +58,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="视频" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8T3-Bc-rMv">
-                                <rect key="frame" x="156" y="140" width="74" height="44"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="视频" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8T3-Bc-rMv">
+                                <rect key="frame" x="150" y="12" width="74" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGa-Sa-wfM">
+                                <rect key="frame" x="37" y="28" width="46" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="lBtnAction:" destination="WtZ-Ez-Ehp" eventType="touchUpInside" id="gHL-xS-KUJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggj-Cb-XAf">
+                                <rect key="frame" x="164" y="38" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="btn3:" destination="WtZ-Ez-Ehp" eventType="touchUpInside" id="qP4-wt-cNB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTY-4q-C3g">
+                                <rect key="frame" x="313" y="38" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="rBtnAction:" destination="WtZ-Ez-Ehp" eventType="touchUpInside" id="gK4-za-gJ7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="视频" id="EKZ-mJ-54Q"/>
+                    <connections>
+                        <outlet property="lBtn" destination="rGa-Sa-wfM" id="9Xk-7K-xTr"/>
+                        <outlet property="rBtn" destination="xTY-4q-C3g" id="4n7-V1-vai"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FVV-xB-FZU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="838" y="1272"/>
+            <point key="canvasLocation" x="838" y="1287"/>
         </scene>
         <!--新闻-->
         <scene sceneID="8oj-Rj-O02">
@@ -116,7 +144,7 @@
         <scene sceneID="g1o-cu-2vr">
             <objects>
                 <navigationController storyboardIdentifier="NAV" id="eIR-Jj-ZFq" customClass="navVC" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SO9-ob-C3F">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="SO9-ob-C3F">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -385,7 +413,7 @@
         <!--直播-->
         <scene sceneID="YLn-IP-SIH">
             <objects>
-                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="5nJ-5v-ykK" sceneMemberID="viewController">
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="5nJ-5v-ykK" customClass="VC3" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="c8l-WV-GUz"/>
                         <viewControllerLayoutGuide type="bottom" id="YbS-eC-kQx"/>
@@ -394,21 +422,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="直播" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oOF-aG-nSp">
-                                <rect key="frame" x="150" y="197" width="74" height="44"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FMb-is-3Wa">
+                                <rect key="frame" x="0.0" y="120" width="375" height="300"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tUV-oz-X6t">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="423"/>
+                                        <subviews>
+                                            <view alpha="0.69999999999999996" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9YT-z7-Irh">
+                                                <rect key="frame" x="8" y="8" width="85" height="81"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.94969481229999997" green="0.49490153790000002" blue="0.1187840179" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.24007472399999999" green="0.74942773579999999" blue="0.79700511689999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="423" id="xyv-ZV-0Xy"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="tUV-oz-X6t" secondAttribute="trailing" id="Kb6-Ub-XVl"/>
+                                    <constraint firstItem="tUV-oz-X6t" firstAttribute="centerX" secondItem="FMb-is-3Wa" secondAttribute="centerX" id="NpX-p4-4Ko"/>
+                                    <constraint firstAttribute="bottom" secondItem="tUV-oz-X6t" secondAttribute="bottom" constant="-122" id="WP1-f9-fbH"/>
+                                    <constraint firstItem="tUV-oz-X6t" firstAttribute="leading" secondItem="FMb-is-3Wa" secondAttribute="leading" id="Wfo-2H-z47"/>
+                                    <constraint firstItem="tUV-oz-X6t" firstAttribute="top" secondItem="FMb-is-3Wa" secondAttribute="top" constant="44" id="rkv-1h-ld7"/>
+                                    <constraint firstAttribute="height" constant="300" id="ux0-nX-vb1"/>
+                                </constraints>
+                            </scrollView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oa3-5D-tuI">
+                                <rect key="frame" x="0.0" y="428" width="93" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FMb-is-3Wa" firstAttribute="leading" secondItem="1Wg-Ap-Vi3" secondAttribute="leading" id="3vk-c1-SFe"/>
+                            <constraint firstAttribute="trailing" secondItem="FMb-is-3Wa" secondAttribute="trailing" id="je1-wS-Zeb"/>
+                            <constraint firstItem="FMb-is-3Wa" firstAttribute="top" secondItem="c8l-WV-GUz" secondAttribute="bottom" constant="100" id="weg-NW-GDd"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="直播" id="Pc1-G8-nRM"/>
+                    <connections>
+                        <outlet property="v" destination="9YT-z7-Irh" id="Xst-Oa-K06"/>
+                        <outlet property="v2" destination="Oa3-5D-tuI" id="oYM-Mi-2Yd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pUy-zH-v46" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-114" y="1668"/>
+            <point key="canvasLocation" x="-114.40000000000001" y="1667.3163418290856"/>
         </scene>
     </scenes>
 </document>

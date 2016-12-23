@@ -15,6 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
   - HexColors (2.2.1)
+  - Masonry (1.0.2)
   - MMDrawerController (0.5.7):
     - MMDrawerController/Core (= 0.5.7)
     - MMDrawerController/MMDrawerBarButtonItem (= 0.5.7)
@@ -35,6 +36,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0.0)
+  - Masonry
   - MMDrawerController (~> 0.5.7)
   - ReactiveCocoa (~> 4.2.2)
   - TSMessages
@@ -42,11 +44,12 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
   HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MMDrawerController: 7a4cf8e25596bf2434e03ce50d22a8608ddee6a1
   ReactiveCocoa: 72263e7ac0770c274617ccd345e01049d0ca38ae
   Result: 18e1a7597fbcca5923c565b40a25a98afafdee02
   TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
 
-PODFILE CHECKSUM: a6a7f7ec84f62d0c22b1abb23c69f2c5d15f1f36
+PODFILE CHECKSUM: 05efb194f5f567796f62001197182e2b541497f6
 
 COCOAPODS: 1.1.1
