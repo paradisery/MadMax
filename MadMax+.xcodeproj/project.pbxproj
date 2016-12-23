@@ -33,6 +33,8 @@
 		943F862B1E012D4900F6CC57 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F862A1E012D4900F6CC57 /* QuartzCore.framework */; };
 		943F862C1E012DB600F6CC57 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F861C1E012CAD00F6CC57 /* libz.tbd */; };
 		943F862F1E013E7F00F6CC57 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F862E1E013E7F00F6CC57 /* ISRDataHelper.m */; };
+		944573F51E0CC736002D5334 /* KTDropdownMenuView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 944573F21E0CC736002D5334 /* KTDropdownMenuView.bundle */; };
+		944573F61E0CC736002D5334 /* KTDropdownMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 944573F41E0CC736002D5334 /* KTDropdownMenuView.m */; };
 		944B67481DEFB45500752471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B67471DEFB45500752471 /* main.m */; };
 		944B674B1DEFB45500752471 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B674A1DEFB45500752471 /* AppDelegate.m */; };
 		944B674E1DEFB45500752471 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B674D1DEFB45500752471 /* ViewController.m */; };
@@ -103,6 +105,9 @@
 		943F862A1E012D4900F6CC57 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		943F862D1E013E7F00F6CC57 /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISRDataHelper.h; path = CSGOclass/ISRDataHelper.h; sourceTree = "<group>"; };
 		943F862E1E013E7F00F6CC57 /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISRDataHelper.m; path = CSGOclass/ISRDataHelper.m; sourceTree = "<group>"; };
+		944573F21E0CC736002D5334 /* KTDropdownMenuView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = KTDropdownMenuView.bundle; path = KTDropdownMenuView/KTDropdownMenuView.bundle; sourceTree = "<group>"; };
+		944573F31E0CC736002D5334 /* KTDropdownMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTDropdownMenuView.h; path = KTDropdownMenuView/KTDropdownMenuView.h; sourceTree = "<group>"; };
+		944573F41E0CC736002D5334 /* KTDropdownMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTDropdownMenuView.m; path = KTDropdownMenuView/KTDropdownMenuView.m; sourceTree = "<group>"; };
 		944B67431DEFB45500752471 /* MadMax+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MadMax+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		944B67471DEFB45500752471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		944B67491DEFB45500752471 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -232,6 +237,7 @@
 		943F86021E00F3B100F6CC57 /* CSGOclass */ = {
 			isa = PBXGroup;
 			children = (
+				944573F11E0CC723002D5334 /* KTDropdownMenuView */,
 				94ED56DC1E07D0B90069E8E7 /* UIScrollView+UITouch.h */,
 				94ED56DD1E07D0B90069E8E7 /* UIScrollView+UITouch.m */,
 				943F862D1E013E7F00F6CC57 /* ISRDataHelper.h */,
@@ -264,6 +270,16 @@
 				943F86141E012C3600F6CC57 /* Speech_Evaluation_API_Documents.pdf */,
 			);
 			name = doc;
+			sourceTree = "<group>";
+		};
+		944573F11E0CC723002D5334 /* KTDropdownMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				944573F21E0CC736002D5334 /* KTDropdownMenuView.bundle */,
+				944573F31E0CC736002D5334 /* KTDropdownMenuView.h */,
+				944573F41E0CC736002D5334 /* KTDropdownMenuView.m */,
+			);
+			name = KTDropdownMenuView;
 			sourceTree = "<group>";
 		};
 		944B673A1DEFB45500752471 = {
@@ -467,6 +483,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				943F86161E012C3600F6CC57 /* installdocset.sh in Resources */,
+				944573F51E0CC736002D5334 /* KTDropdownMenuView.bundle in Resources */,
 				944B67561DEFB45500752471 /* LaunchScreen.storyboard in Resources */,
 				944B67531DEFB45500752471 /* Assets.xcassets in Resources */,
 				943F86171E012C3600F6CC57 /* MSC Develop Manual for iOS.pdf in Resources */,
@@ -558,6 +575,7 @@
 				944B674B1DEFB45500752471 /* AppDelegate.m in Sources */,
 				944B67831DF0236500752471 /* LeftViewController.m in Sources */,
 				944B67481DEFB45500752471 /* main.m in Sources */,
+				944573F61E0CC736002D5334 /* KTDropdownMenuView.m in Sources */,
 				943F86051E00F3FE00F6CC57 /* newsVC.m in Sources */,
 				944B67801DF010DD00752471 /* RootViewController.m in Sources */,
 				942FED2C1DF1139A006ACBBA /* itemViewController.m in Sources */,

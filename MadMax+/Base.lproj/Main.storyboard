@@ -143,7 +143,7 @@
         <!--NavVC-->
         <scene sceneID="g1o-cu-2vr">
             <objects>
-                <navigationController storyboardIdentifier="NAV" id="eIR-Jj-ZFq" customClass="navVC" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NAV" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eIR-Jj-ZFq" customClass="navVC" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="SO9-ob-C3F">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

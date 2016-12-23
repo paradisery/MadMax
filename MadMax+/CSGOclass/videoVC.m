@@ -7,11 +7,13 @@
 //
 
 #import "videoVC.h"
+#import "KTDropdownMenuView.h"
 #import <Masonry/Masonry.h>
 @interface videoVC ()
 @property (weak, nonatomic) IBOutlet UIButton *lBtn;
 @property (weak, nonatomic) IBOutlet UIButton *rBtn;
 @property(nonatomic,strong)UIView * animationView;
+@property(nonatomic,strong)KTDropdownMenuView *menuView;
 @end
 
 @implementation videoVC
@@ -45,21 +47,9 @@
 //
     }];
     
-//    [self initUI];
-}
--(void)initUI{
-        v= [[UIView alloc] initWithFrame:CGRectMake(210, 210, 30, 30)];
-        v.backgroundColor = [UIColor blueColor];
-        v.alpha = 0.4;
-        [self.view addSubview:v];
     
-    btn=[[UIButton alloc]initWithFrame:CGRectMake(0, 0, 50, 30)];
-    //        [btn setImage:[UIImage imageNamed:@"Button_Back"] forState:UIControlStateNormal];
-    [btn setTitle:@"返回" forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(tapDef) forControlEvents:UIControlEventTouchUpInside];
-    [v addSubview:btn];
-
 }
+
 //- (void)didMoveToWindow{
 //    [super didMoveToWindow];
 //    if (self.window) {
