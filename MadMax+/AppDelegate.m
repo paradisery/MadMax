@@ -21,8 +21,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-//    [self initDrawer]; //初始左侧菜单项
-    [self myDrawer];
+    [self initDrawer]; //初始左侧菜单项
+//    [self myDrawer];
     return YES;
 }
 - (void)myDrawer {

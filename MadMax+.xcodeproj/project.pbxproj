@@ -33,8 +33,17 @@
 		943F862B1E012D4900F6CC57 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F862A1E012D4900F6CC57 /* QuartzCore.framework */; };
 		943F862C1E012DB600F6CC57 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F861C1E012CAD00F6CC57 /* libz.tbd */; };
 		943F862F1E013E7F00F6CC57 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F862E1E013E7F00F6CC57 /* ISRDataHelper.m */; };
+		944024D21E10AB5B00084E5A /* animation2.m in Sources */ = {isa = PBXBuildFile; fileRef = 944024D11E10AB5B00084E5A /* animation2.m */; };
+		944024D51E10AB7200084E5A /* animation3.m in Sources */ = {isa = PBXBuildFile; fileRef = 944024D41E10AB7200084E5A /* animation3.m */; };
 		944573F51E0CC736002D5334 /* KTDropdownMenuView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 944573F21E0CC736002D5334 /* KTDropdownMenuView.bundle */; };
 		944573F61E0CC736002D5334 /* KTDropdownMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 944573F41E0CC736002D5334 /* KTDropdownMenuView.m */; };
+		944574061E0D0AB4002D5334 /* UIColor+DDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 944573F91E0D0AB4002D5334 /* UIColor+DDF.m */; };
+		944574071E0D0AB4002D5334 /* UIDevice+CJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 944573FB1E0D0AB4002D5334 /* UIDevice+CJ.m */; };
+		944574081E0D0AB4002D5334 /* UIImage+DDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 944573FD1E0D0AB4002D5334 /* UIImage+DDF.m */; };
+		944574091E0D0AB4002D5334 /* UINavigationBar+CJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 944573FF1E0D0AB4002D5334 /* UINavigationBar+CJ.m */; };
+		9445740A1E0D0AB4002D5334 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 944574011E0D0AB4002D5334 /* UITabBar+badge.m */; };
+		9445740B1E0D0AB4002D5334 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 944574031E0D0AB4002D5334 /* UIView+AutoLayout.m */; };
+		9445740C1E0D0AB4002D5334 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 944574051E0D0AB4002D5334 /* UIView+Extension.m */; };
 		944B67481DEFB45500752471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B67471DEFB45500752471 /* main.m */; };
 		944B674B1DEFB45500752471 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B674A1DEFB45500752471 /* AppDelegate.m */; };
 		944B674E1DEFB45500752471 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B674D1DEFB45500752471 /* ViewController.m */; };
@@ -105,9 +114,27 @@
 		943F862A1E012D4900F6CC57 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		943F862D1E013E7F00F6CC57 /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISRDataHelper.h; path = CSGOclass/ISRDataHelper.h; sourceTree = "<group>"; };
 		943F862E1E013E7F00F6CC57 /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISRDataHelper.m; path = CSGOclass/ISRDataHelper.m; sourceTree = "<group>"; };
+		944024D01E10AB5B00084E5A /* animation2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = animation2.h; path = CSGOclass/animation2.h; sourceTree = "<group>"; };
+		944024D11E10AB5B00084E5A /* animation2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = animation2.m; path = CSGOclass/animation2.m; sourceTree = "<group>"; };
+		944024D31E10AB7200084E5A /* animation3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = animation3.h; path = CSGOclass/animation3.h; sourceTree = "<group>"; };
+		944024D41E10AB7200084E5A /* animation3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = animation3.m; path = CSGOclass/animation3.m; sourceTree = "<group>"; };
 		944573F21E0CC736002D5334 /* KTDropdownMenuView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = KTDropdownMenuView.bundle; path = KTDropdownMenuView/KTDropdownMenuView.bundle; sourceTree = "<group>"; };
 		944573F31E0CC736002D5334 /* KTDropdownMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTDropdownMenuView.h; path = KTDropdownMenuView/KTDropdownMenuView.h; sourceTree = "<group>"; };
 		944573F41E0CC736002D5334 /* KTDropdownMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTDropdownMenuView.m; path = KTDropdownMenuView/KTDropdownMenuView.m; sourceTree = "<group>"; };
+		944573F81E0D0AB4002D5334 /* UIColor+DDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+DDF.h"; path = "CSGOclass/CateGory/UIColor+DDF.h"; sourceTree = "<group>"; };
+		944573F91E0D0AB4002D5334 /* UIColor+DDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+DDF.m"; path = "CSGOclass/CateGory/UIColor+DDF.m"; sourceTree = "<group>"; };
+		944573FA1E0D0AB4002D5334 /* UIDevice+CJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+CJ.h"; path = "CSGOclass/CateGory/UIDevice+CJ.h"; sourceTree = "<group>"; };
+		944573FB1E0D0AB4002D5334 /* UIDevice+CJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+CJ.m"; path = "CSGOclass/CateGory/UIDevice+CJ.m"; sourceTree = "<group>"; };
+		944573FC1E0D0AB4002D5334 /* UIImage+DDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+DDF.h"; path = "CSGOclass/CateGory/UIImage+DDF.h"; sourceTree = "<group>"; };
+		944573FD1E0D0AB4002D5334 /* UIImage+DDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+DDF.m"; path = "CSGOclass/CateGory/UIImage+DDF.m"; sourceTree = "<group>"; };
+		944573FE1E0D0AB4002D5334 /* UINavigationBar+CJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+CJ.h"; path = "CSGOclass/CateGory/UINavigationBar+CJ.h"; sourceTree = "<group>"; };
+		944573FF1E0D0AB4002D5334 /* UINavigationBar+CJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+CJ.m"; path = "CSGOclass/CateGory/UINavigationBar+CJ.m"; sourceTree = "<group>"; };
+		944574001E0D0AB4002D5334 /* UITabBar+badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITabBar+badge.h"; path = "CSGOclass/CateGory/UITabBar+badge.h"; sourceTree = "<group>"; };
+		944574011E0D0AB4002D5334 /* UITabBar+badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+badge.m"; path = "CSGOclass/CateGory/UITabBar+badge.m"; sourceTree = "<group>"; };
+		944574021E0D0AB4002D5334 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+AutoLayout.h"; path = "CSGOclass/CateGory/UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		944574031E0D0AB4002D5334 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+AutoLayout.m"; path = "CSGOclass/CateGory/UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		944574041E0D0AB4002D5334 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "CSGOclass/CateGory/UIView+Extension.h"; sourceTree = "<group>"; };
+		944574051E0D0AB4002D5334 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "CSGOclass/CateGory/UIView+Extension.m"; sourceTree = "<group>"; };
 		944B67431DEFB45500752471 /* MadMax+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MadMax+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		944B67471DEFB45500752471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		944B67491DEFB45500752471 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -237,6 +264,7 @@
 		943F86021E00F3B100F6CC57 /* CSGOclass */ = {
 			isa = PBXGroup;
 			children = (
+				944573F71E0D0A64002D5334 /* CateGory */,
 				944573F11E0CC723002D5334 /* KTDropdownMenuView */,
 				94ED56DC1E07D0B90069E8E7 /* UIScrollView+UITouch.h */,
 				94ED56DD1E07D0B90069E8E7 /* UIScrollView+UITouch.m */,
@@ -248,6 +276,10 @@
 				94ED56D11E077E0B0069E8E7 /* videoVC.m */,
 				94ED56D91E07CAB70069E8E7 /* VC3.h */,
 				94ED56DA1E07CAB70069E8E7 /* VC3.m */,
+				944024D01E10AB5B00084E5A /* animation2.h */,
+				944024D11E10AB5B00084E5A /* animation2.m */,
+				944024D31E10AB7200084E5A /* animation3.h */,
+				944024D41E10AB7200084E5A /* animation3.m */,
 			);
 			name = CSGOclass;
 			sourceTree = "<group>";
@@ -280,6 +312,27 @@
 				944573F41E0CC736002D5334 /* KTDropdownMenuView.m */,
 			);
 			name = KTDropdownMenuView;
+			sourceTree = "<group>";
+		};
+		944573F71E0D0A64002D5334 /* CateGory */ = {
+			isa = PBXGroup;
+			children = (
+				944573F81E0D0AB4002D5334 /* UIColor+DDF.h */,
+				944573F91E0D0AB4002D5334 /* UIColor+DDF.m */,
+				944573FA1E0D0AB4002D5334 /* UIDevice+CJ.h */,
+				944573FB1E0D0AB4002D5334 /* UIDevice+CJ.m */,
+				944573FC1E0D0AB4002D5334 /* UIImage+DDF.h */,
+				944573FD1E0D0AB4002D5334 /* UIImage+DDF.m */,
+				944573FE1E0D0AB4002D5334 /* UINavigationBar+CJ.h */,
+				944573FF1E0D0AB4002D5334 /* UINavigationBar+CJ.m */,
+				944574001E0D0AB4002D5334 /* UITabBar+badge.h */,
+				944574011E0D0AB4002D5334 /* UITabBar+badge.m */,
+				944574021E0D0AB4002D5334 /* UIView+AutoLayout.h */,
+				944574031E0D0AB4002D5334 /* UIView+AutoLayout.m */,
+				944574041E0D0AB4002D5334 /* UIView+Extension.h */,
+				944574051E0D0AB4002D5334 /* UIView+Extension.m */,
+			);
+			name = CateGory;
 			sourceTree = "<group>";
 		};
 		944B673A1DEFB45500752471 = {
@@ -564,13 +617,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9445740A1E0D0AB4002D5334 /* UITabBar+badge.m in Sources */,
+				9445740B1E0D0AB4002D5334 /* UIView+AutoLayout.m in Sources */,
+				944574061E0D0AB4002D5334 /* UIColor+DDF.m in Sources */,
 				943F862F1E013E7F00F6CC57 /* ISRDataHelper.m in Sources */,
+				944574091E0D0AB4002D5334 /* UINavigationBar+CJ.m in Sources */,
 				942FED2F1DF11F79006ACBBA /* navVC.m in Sources */,
 				944B674E1DEFB45500752471 /* ViewController.m in Sources */,
 				942253F31DF8FDF5009AE107 /* leftVC.m in Sources */,
 				942FED351DF124E4006ACBBA /* tbbVC2.m in Sources */,
+				944574071E0D0AB4002D5334 /* UIDevice+CJ.m in Sources */,
 				944B677C1DF0104B00752471 /* BaseViewController.m in Sources */,
 				942FED321DF12376006ACBBA /* tbbVC.m in Sources */,
+				944574081E0D0AB4002D5334 /* UIImage+DDF.m in Sources */,
 				94ED56D21E077E0B0069E8E7 /* videoVC.m in Sources */,
 				944B674B1DEFB45500752471 /* AppDelegate.m in Sources */,
 				944B67831DF0236500752471 /* LeftViewController.m in Sources */,
@@ -578,9 +637,12 @@
 				944573F61E0CC736002D5334 /* KTDropdownMenuView.m in Sources */,
 				943F86051E00F3FE00F6CC57 /* newsVC.m in Sources */,
 				944B67801DF010DD00752471 /* RootViewController.m in Sources */,
+				9445740C1E0D0AB4002D5334 /* UIView+Extension.m in Sources */,
+				944024D21E10AB5B00084E5A /* animation2.m in Sources */,
 				942FED2C1DF1139A006ACBBA /* itemViewController.m in Sources */,
 				94ED56DB1E07CAB70069E8E7 /* VC3.m in Sources */,
 				942253F71DF90806009AE107 /* tbbVC3.m in Sources */,
+				944024D51E10AB7200084E5A /* animation3.m in Sources */,
 				94ED56DE1E07D0B90069E8E7 /* UIScrollView+UITouch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
