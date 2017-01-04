@@ -9,8 +9,11 @@
 #import "animation3.h"
 #import <GPUImage/GPUImage.h>
 #import <Masonry/Masonry.h>
-
+#import <QuartzCore/QuartzCore.h>
 #import "KYCuteView.h"
+
+extern const NSString *str=@"全局变量";
+static const NSString *str1=@"静态变量";
 
 @interface animation3 ()
 @property(nonatomic,strong)CADisplayLink * displayLink;
@@ -29,6 +32,10 @@
 //气泡的直径
 // bubble's diameter
 @property(nonatomic, assign) CGFloat bubbleWidth;
+
+
+@property(nonatomic,strong)UIDynamicAnimator *animator;
+@property(nonatomic,strong)UIView * orangeBall;
 @end
 
 @implementation animation3
@@ -70,6 +77,7 @@
     
 
     [self xiaodian];
+    [self initoOrangeBall];
 }
 -(void)xiaodian{
     KYCuteView *cuteView = [[KYCuteView alloc]initWithPoint:CGPointMake(self.tabBarController.tabBar.subviews[5].frame.size.height*5/6,self.tabBarController.tabBar.subviews[5].frame.size.width/100) superView: self.tabBarController.tabBar.subviews[5]];
@@ -84,9 +92,31 @@
     
     NSLog(@"%@,%@",self.tabBarController.tabBar.items[0],self.tabBarController.tabBar.subviews[0]) ;
 }
+-(void)initoOrangeBall{
 
-
-
+    self.orangeBall=[[UIView alloc]initWithFrame:CGRectMake(100, 100, 50, 50)];
+    self.orangeBall.backgroundColor=[UIColor orangeColor];
+    self.orangeBall.layer.cornerRadius=25;
+    self.orangeBall.layer.borderColor=[UIColor blackColor].CGColor;
+    self.orangeBall.layer.borderWidth=0;
+    [self.view addSubview:self.orangeBall];
+    
+    self.animator=[[UIDynamicAnimator alloc]initWithReferenceView:self.orangeBall];
+    
+}
+-(void)gravity{
+    UIGravityBehavior * gb=[[UIGravityBehavior alloc]initWithItems:@[self.orangeBall]];
+    [self.animator addBehavior:gb];
+}
+-(void)gravity1{
+    UICollisionBehavior * cb=[[UICollisionBehavior alloc]initWithItems:@[self.orangeBall]];
+    cb.translatesReferenceBoundsIntoBoundary=YES;
+    [self.animator addBehavior:cb];
+}
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self gravity];
+//    [self gravity1];
+}
 
 
 

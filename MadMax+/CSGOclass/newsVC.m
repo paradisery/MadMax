@@ -72,10 +72,14 @@
 {
     NSLog(@"error:%@",error);
 }
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+- (IBAction)speak:(id)sender {
     self.edgesForExtendedLayout=UIRectEdgeNone;
-    
     [self ifly];
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
 }
 
 /**

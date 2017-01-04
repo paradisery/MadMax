@@ -22,15 +22,16 @@
     // Do any additional setup after loading the view.
     
 //    [self uiTap];
-    
-   
-    
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
+}
+- (IBAction)特效1:(id)sender {
     [self uiMaskView];
+}
+- (IBAction)特效2:(id)sender {
     [self uiCAGradientLayer];
-    
+}
+- (IBAction)特效3:(id)sender {
     [self uiColor];
 }
 -(void)uiColor{

@@ -58,6 +58,7 @@
 		94ED56D21E077E0B0069E8E7 /* videoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED56D11E077E0B0069E8E7 /* videoVC.m */; };
 		94ED56DB1E07CAB70069E8E7 /* VC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED56DA1E07CAB70069E8E7 /* VC3.m */; };
 		94ED56DE1E07D0B90069E8E7 /* UIScrollView+UITouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED56DD1E07D0B90069E8E7 /* UIScrollView+UITouch.m */; };
+		94EE8B0E1E14AF8D00FAE551 /* VC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EE8B0D1E14AF8D00FAE551 /* VC1.m */; };
 		CB53156D0219DD2CE7A12FDC /* Pods_MadMax_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21552CF69E04C438B7960CF9 /* Pods_MadMax_.framework */; };
 /* End PBXBuildFile section */
 
@@ -163,6 +164,8 @@
 		94ED56DA1E07CAB70069E8E7 /* VC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VC3.m; path = CSGOclass/VC3.m; sourceTree = "<group>"; };
 		94ED56DC1E07D0B90069E8E7 /* UIScrollView+UITouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+UITouch.h"; path = "CSGOclass/UIScrollView+UITouch.h"; sourceTree = "<group>"; };
 		94ED56DD1E07D0B90069E8E7 /* UIScrollView+UITouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+UITouch.m"; path = "CSGOclass/UIScrollView+UITouch.m"; sourceTree = "<group>"; };
+		94EE8B0C1E14AF8D00FAE551 /* VC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VC1.h; path = "league of legends/VC1.h"; sourceTree = "<group>"; };
+		94EE8B0D1E14AF8D00FAE551 /* VC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VC1.m; path = "league of legends/VC1.m"; sourceTree = "<group>"; };
 		9AD7E32B1598387B9C5D0A66 /* Pods-MadMax+.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadMax+.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MadMax+/Pods-MadMax+.debug.xcconfig"; sourceTree = "<group>"; };
 		B353E65B8A38E9A8C8E91877 /* Pods-MadMax+.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MadMax+.release.xcconfig"; path = "Pods/Target Support Files/Pods-MadMax+/Pods-MadMax+.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -367,6 +370,7 @@
 				942FED361DF15C56006ACBBA /* navi */,
 				942FED371DF15C7C006ACBBA /* class */,
 				943F86021E00F3B100F6CC57 /* CSGOclass */,
+				94EE8B0B1E14AEA900FAE551 /* League of legends */,
 				944B67491DEFB45500752471 /* AppDelegate.h */,
 				944B674A1DEFB45500752471 /* AppDelegate.m */,
 				944B674F1DEFB45500752471 /* Main.storyboard */,
@@ -423,6 +427,15 @@
 				942253F21DF8FDF5009AE107 /* leftVC.xib */,
 			);
 			name = RootVC;
+			sourceTree = "<group>";
+		};
+		94EE8B0B1E14AEA900FAE551 /* League of legends */ = {
+			isa = PBXGroup;
+			children = (
+				94EE8B0C1E14AF8D00FAE551 /* VC1.h */,
+				94EE8B0D1E14AF8D00FAE551 /* VC1.m */,
+			);
+			name = "League of legends";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -627,6 +640,7 @@
 				942253F31DF8FDF5009AE107 /* leftVC.m in Sources */,
 				942FED351DF124E4006ACBBA /* tbbVC2.m in Sources */,
 				944574071E0D0AB4002D5334 /* UIDevice+CJ.m in Sources */,
+				94EE8B0E1E14AF8D00FAE551 /* VC1.m in Sources */,
 				944B677C1DF0104B00752471 /* BaseViewController.m in Sources */,
 				942FED321DF12376006ACBBA /* tbbVC.m in Sources */,
 				944574081E0D0AB4002D5334 /* UIImage+DDF.m in Sources */,
@@ -800,6 +814,7 @@
 					"$(PROJECT_DIR)/MadMax+/lib",
 				);
 				INFOPLIST_FILE = "MadMax+/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruanyang.MadMax-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -818,6 +833,7 @@
 					"$(PROJECT_DIR)/MadMax+/lib",
 				);
 				INFOPLIST_FILE = "MadMax+/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruanyang.MadMax-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
