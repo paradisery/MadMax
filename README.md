@@ -17,10 +17,10 @@
 5、动画
 ------
 ![image](https://github.com/paradisery/MadMax/blob/master/gif/115.gif)
-6、粘性小圆点
+6、粘性小圆点,重力动力
 ------
 ![image](https://github.com/paradisery/MadMax/blob/master/gif/116.gif)
-7、重力动力
+7、下拉菜单
 ------
 ![image](https://github.com/paradisery/MadMax/blob/master/gif/117.gif)
 
