@@ -55,6 +55,13 @@
 		944B677C1DF0104B00752471 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B677B1DF0104B00752471 /* BaseViewController.m */; };
 		944B67801DF010DD00752471 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B677F1DF010DD00752471 /* RootViewController.m */; };
 		944B67831DF0236500752471 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B67821DF0236500752471 /* LeftViewController.m */; };
+		9486ABB91E2367CA009E3D4E /* LXSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9486ABB41E2367CA009E3D4E /* LXSegmentControl.m */; };
+		9486ABBA1E2367CA009E3D4E /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9486ABB61E2367CA009E3D4E /* NSString+Extension.m */; };
+		9486ABBB1E2367CA009E3D4E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9486ABB81E2367CA009E3D4E /* UIView+Frame.m */; };
+		9486ABBF1E236E68009E3D4E /* oneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9486ABBD1E236E68009E3D4E /* oneVC.m */; };
+		9486ABC01E236E68009E3D4E /* oneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9486ABBE1E236E68009E3D4E /* oneVC.xib */; };
+		9486ABC41E2371B8009E3D4E /* twoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9486ABC21E2371B8009E3D4E /* twoVC.m */; };
+		9486ABC51E2371B8009E3D4E /* twoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9486ABC31E2371B8009E3D4E /* twoVC.xib */; };
 		94ED56D21E077E0B0069E8E7 /* videoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED56D11E077E0B0069E8E7 /* videoVC.m */; };
 		94ED56DB1E07CAB70069E8E7 /* VC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED56DA1E07CAB70069E8E7 /* VC3.m */; };
 		94ED56DE1E07D0B90069E8E7 /* UIScrollView+UITouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ED56DD1E07D0B90069E8E7 /* UIScrollView+UITouch.m */; };
@@ -158,6 +165,18 @@
 		944B677F1DF010DD00752471 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = RootVC/RootViewController.m; sourceTree = "<group>"; };
 		944B67811DF0236500752471 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		944B67821DF0236500752471 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		9486ABB31E2367CA009E3D4E /* LXSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LXSegmentControl.h; path = "league of legends/SegmentControl/LXSegmentControl.h"; sourceTree = "<group>"; };
+		9486ABB41E2367CA009E3D4E /* LXSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LXSegmentControl.m; path = "league of legends/SegmentControl/LXSegmentControl.m"; sourceTree = "<group>"; };
+		9486ABB51E2367CA009E3D4E /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "league of legends/SegmentControl/NSString+Extension.h"; sourceTree = "<group>"; };
+		9486ABB61E2367CA009E3D4E /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "league of legends/SegmentControl/NSString+Extension.m"; sourceTree = "<group>"; };
+		9486ABB71E2367CA009E3D4E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "league of legends/SegmentControl/UIView+Frame.h"; sourceTree = "<group>"; };
+		9486ABB81E2367CA009E3D4E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "league of legends/SegmentControl/UIView+Frame.m"; sourceTree = "<group>"; };
+		9486ABBC1E236E68009E3D4E /* oneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oneVC.h; path = "league of legends/oneVC.h"; sourceTree = "<group>"; };
+		9486ABBD1E236E68009E3D4E /* oneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = oneVC.m; path = "league of legends/oneVC.m"; sourceTree = "<group>"; };
+		9486ABBE1E236E68009E3D4E /* oneVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = oneVC.xib; path = "league of legends/oneVC.xib"; sourceTree = "<group>"; };
+		9486ABC11E2371B8009E3D4E /* twoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = twoVC.h; path = "league of legends/twoVC.h"; sourceTree = "<group>"; };
+		9486ABC21E2371B8009E3D4E /* twoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = twoVC.m; path = "league of legends/twoVC.m"; sourceTree = "<group>"; };
+		9486ABC31E2371B8009E3D4E /* twoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = twoVC.xib; path = "league of legends/twoVC.xib"; sourceTree = "<group>"; };
 		94ED56D01E077E0B0069E8E7 /* videoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = videoVC.h; path = CSGOclass/videoVC.h; sourceTree = "<group>"; };
 		94ED56D11E077E0B0069E8E7 /* videoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = videoVC.m; path = CSGOclass/videoVC.m; sourceTree = "<group>"; };
 		94ED56D91E07CAB70069E8E7 /* VC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VC3.h; path = CSGOclass/VC3.h; sourceTree = "<group>"; };
@@ -429,11 +448,31 @@
 			name = RootVC;
 			sourceTree = "<group>";
 		};
+		9486ABB21E2367B6009E3D4E /* SegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				9486ABB31E2367CA009E3D4E /* LXSegmentControl.h */,
+				9486ABB41E2367CA009E3D4E /* LXSegmentControl.m */,
+				9486ABB51E2367CA009E3D4E /* NSString+Extension.h */,
+				9486ABB61E2367CA009E3D4E /* NSString+Extension.m */,
+				9486ABB71E2367CA009E3D4E /* UIView+Frame.h */,
+				9486ABB81E2367CA009E3D4E /* UIView+Frame.m */,
+			);
+			name = SegmentControl;
+			sourceTree = "<group>";
+		};
 		94EE8B0B1E14AEA900FAE551 /* League of legends */ = {
 			isa = PBXGroup;
 			children = (
+				9486ABB21E2367B6009E3D4E /* SegmentControl */,
 				94EE8B0C1E14AF8D00FAE551 /* VC1.h */,
 				94EE8B0D1E14AF8D00FAE551 /* VC1.m */,
+				9486ABBC1E236E68009E3D4E /* oneVC.h */,
+				9486ABBD1E236E68009E3D4E /* oneVC.m */,
+				9486ABBE1E236E68009E3D4E /* oneVC.xib */,
+				9486ABC11E2371B8009E3D4E /* twoVC.h */,
+				9486ABC21E2371B8009E3D4E /* twoVC.m */,
+				9486ABC31E2371B8009E3D4E /* twoVC.xib */,
 			);
 			name = "League of legends";
 			sourceTree = "<group>";
@@ -553,10 +592,12 @@
 				944B67561DEFB45500752471 /* LaunchScreen.storyboard in Resources */,
 				944B67531DEFB45500752471 /* Assets.xcassets in Resources */,
 				943F86171E012C3600F6CC57 /* MSC Develop Manual for iOS.pdf in Resources */,
+				9486ABC51E2371B8009E3D4E /* twoVC.xib in Resources */,
 				943F86191E012C3600F6CC57 /* Speech_Evaluation_API_Documents.pdf in Resources */,
 				943F86151E012C3600F6CC57 /* com.iflytek.IFlyMSC.docset in Resources */,
 				944B67511DEFB45500752471 /* Main.storyboard in Resources */,
 				943F86181E012C3600F6CC57 /* readme.txt in Resources */,
+				9486ABC01E236E68009E3D4E /* oneVC.xib in Resources */,
 				942253F41DF8FDF5009AE107 /* leftVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -630,7 +671,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9486ABC41E2371B8009E3D4E /* twoVC.m in Sources */,
 				9445740A1E0D0AB4002D5334 /* UITabBar+badge.m in Sources */,
+				9486ABBB1E2367CA009E3D4E /* UIView+Frame.m in Sources */,
 				9445740B1E0D0AB4002D5334 /* UIView+AutoLayout.m in Sources */,
 				944574061E0D0AB4002D5334 /* UIColor+DDF.m in Sources */,
 				943F862F1E013E7F00F6CC57 /* ISRDataHelper.m in Sources */,
@@ -651,11 +694,14 @@
 				944573F61E0CC736002D5334 /* KTDropdownMenuView.m in Sources */,
 				943F86051E00F3FE00F6CC57 /* newsVC.m in Sources */,
 				944B67801DF010DD00752471 /* RootViewController.m in Sources */,
+				9486ABB91E2367CA009E3D4E /* LXSegmentControl.m in Sources */,
 				9445740C1E0D0AB4002D5334 /* UIView+Extension.m in Sources */,
 				944024D21E10AB5B00084E5A /* animation2.m in Sources */,
 				942FED2C1DF1139A006ACBBA /* itemViewController.m in Sources */,
+				9486ABBA1E2367CA009E3D4E /* NSString+Extension.m in Sources */,
 				94ED56DB1E07CAB70069E8E7 /* VC3.m in Sources */,
 				942253F71DF90806009AE107 /* tbbVC3.m in Sources */,
+				9486ABBF1E236E68009E3D4E /* oneVC.m in Sources */,
 				944024D51E10AB7200084E5A /* animation3.m in Sources */,
 				94ED56DE1E07D0B90069E8E7 /* UIScrollView+UITouch.m in Sources */,
 			);

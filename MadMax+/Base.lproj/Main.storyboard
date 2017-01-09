@@ -396,7 +396,7 @@
         <!--联赛-->
         <scene sceneID="dbU-ln-bdS">
             <objects>
-                <viewController id="XFP-Gt-lT6" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="XFP-Gt-lT6" customClass="VC1" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IAb-7l-d3C"/>
                         <viewControllerLayoutGuide type="bottom" id="FHI-MO-WbO"/>
@@ -689,35 +689,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Dm-le-BB8">
-                                <rect key="frame" x="20" y="533" width="38" height="30"/>
+                                <rect key="frame" x="15" y="42" width="38" height="30"/>
                                 <state key="normal" title="特效1"/>
                                 <connections>
                                     <action selector="特效1:" destination="5nJ-5v-ykK" eventType="touchUpInside" id="xzA-Bg-AT5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i15-j0-cSg">
-                                <rect key="frame" x="167" y="533" width="40" height="30"/>
-                                <state key="normal" title="特效2"/>
-                                <connections>
-                                    <action selector="特效2:" destination="5nJ-5v-ykK" eventType="touchUpInside" id="j3K-hm-NFV"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="32m-AU-M4c">
-                                <rect key="frame" x="315" y="533" width="40" height="30"/>
+                                <rect key="frame" x="14" y="179" width="40" height="30"/>
                                 <state key="normal" title="特效3"/>
                                 <connections>
                                     <action selector="特效3:" destination="5nJ-5v-ykK" eventType="touchUpInside" id="NlC-0O-Rc9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i15-j0-cSg">
+                                <rect key="frame" x="14" y="111" width="40" height="30"/>
+                                <state key="normal" title="特效2"/>
+                                <connections>
+                                    <action selector="特效2:" destination="5nJ-5v-ykK" eventType="touchUpInside" id="j3K-hm-NFV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="YbS-eC-kQx" firstAttribute="top" secondItem="i15-j0-cSg" secondAttribute="bottom" constant="55" id="BUp-VE-CBY"/>
-                            <constraint firstItem="0Dm-le-BB8" firstAttribute="leading" secondItem="1Wg-Ap-Vi3" secondAttribute="leadingMargin" constant="4" id="JSe-yz-vPg"/>
-                            <constraint firstItem="i15-j0-cSg" firstAttribute="centerX" secondItem="1Wg-Ap-Vi3" secondAttribute="centerX" id="RRJ-Ba-exy"/>
-                            <constraint firstItem="YbS-eC-kQx" firstAttribute="top" secondItem="0Dm-le-BB8" secondAttribute="bottom" constant="55" id="Vzz-Ma-zmX"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="32m-AU-M4c" secondAttribute="trailing" constant="4" id="hVT-Ad-r0k"/>
-                            <constraint firstItem="YbS-eC-kQx" firstAttribute="top" secondItem="32m-AU-M4c" secondAttribute="bottom" constant="55" id="tCS-f2-IA8"/>
+                            <constraint firstItem="i15-j0-cSg" firstAttribute="centerX" secondItem="0Dm-le-BB8" secondAttribute="centerX" id="DZR-fu-IKC"/>
+                            <constraint firstItem="32m-AU-M4c" firstAttribute="centerX" secondItem="0Dm-le-BB8" secondAttribute="centerX" id="JFy-ag-dVu"/>
+                            <constraint firstItem="0Dm-le-BB8" firstAttribute="leading" secondItem="1Wg-Ap-Vi3" secondAttribute="leading" constant="15" id="KxN-6F-4vK"/>
+                            <constraint firstItem="32m-AU-M4c" firstAttribute="top" secondItem="i15-j0-cSg" secondAttribute="bottom" constant="38" id="Shy-5x-GW6"/>
+                            <constraint firstItem="i15-j0-cSg" firstAttribute="top" secondItem="0Dm-le-BB8" secondAttribute="bottom" constant="39" id="tlk-CF-bwg"/>
+                            <constraint firstItem="0Dm-le-BB8" firstAttribute="top" secondItem="c8l-WV-GUz" secondAttribute="bottom" constant="22" id="txS-4o-Z3f"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="特效" id="Pc1-G8-nRM"/>

@@ -24,7 +24,7 @@
 }
 -(void)viewWillDisappear:(BOOL)animated{
     self.navigationController.navigationBarHidden=NO;
-//    self.view.frame=CGRectMake(0, 0, self.view.width, self.view.height+64);
+//    self.view.frame=CGRectMake(0, 0, self.view.width, self.view.height-64);
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
